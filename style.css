@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'MIXONE';
+    src: url(/font/MIXONE.ttf) format(truetype);
+    font-weight: normal;
+    font-size: normal;
+
+    font-family: 'Fragrant';
+    src: url(/font/Fragrant\ Free.otf) format(opentype);
+    font-weight: normal;
+    font-size: normal;
+
+    font-family: 'VENDYA';
+    src: url(/font/vendya.otf) format(opentype);
+    font-weight: normal;
+    font-size: normal;
+
+}
+
+:root {
+    --cor01: #0455BF; /**Bg Color Header**/
+    --cor02: #0468BF;
+    --cor04: #77ABD9; /**Bg color Body**/
+    --cor05: #0477BF;
+    --cor06: #00254E; /**Título**/
+    --cor07: #c4cadb /**Article**/
+    #7673d9; 
+}
+
+* {
+
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor04);
+    text-align: justify;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor05));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.658);
+}
+
+header > h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+header > p {
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+}
+
+nav {
+    font-family: 'VENDYA', Helvetica, sans-serif;
+    text-align: justify;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.445);
+    background-color: var(--cor05);
+    padding: 10px
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: var(--cor04);
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px var(--cor02);
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1.em;
+}
+
+h1{
+    font-family: 'MIXONE', Helvetica, sans-serif; 
+    color: white;  
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+}
+
+main h2{
+    font-family: 'Fragrant', Helvetica, sans-serif;
+    color: #00254E;
+    background-image: linear-gradient(to right, var(--cor04), transparent  );
+    text-indent: 8px;
+    font-weight: normal;
+}
+
+main h3 {
+    font-family: 'Fragrant', Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: solid;
+    text-indent: 8px;
+    font-weight: normal;
+}
+main strong {
+    background-color:#8dc5f78f;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: white;
+}
+
+blockquote {
+    background-color: #2a8bcc83;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.527);
+}
+
+div.video, div.video1, div.imagem {
+    background-color: #00254E;
+    margin: 30px -20px;
+    padding: 20px;
+}
+
+div.imagens, div.imagem{
+    text-align: center;
+    background-color: #00254E;
+    margin: 30px -20px;
+    padding: 20px;
+}
+
+div.imagem-santa{ /**gerusinhagames**/
+    text-align: center;
+    background-color: #e9e773;
+    margin: 30px -20px;
+    padding: 20px;
+}
+
+div.video1{
+    text-align: center;
+}
