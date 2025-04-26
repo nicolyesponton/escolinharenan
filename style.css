@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'MIXONE';
-    src: url(/font/MIXONE.ttf) format(truetype);
+    src: url(MIXONE.ttf) format(truetype);
     font-weight: normal;
     font-size: normal;
 
     font-family: 'Fragrant';
-    src: url(/font/Fragrant\ Free.otf) format(opentype);
+    src: url(Fragrant\ Free.otf) format(opentype);
     font-weight: normal;
     font-size: normal;
 
     font-family: 'VENDYA';
-    src: url(/font/vendya.otf) format(opentype);
+    src: url(vendya.otf) format(opentype);
     font-weight: normal;
     font-size: normal;
 
